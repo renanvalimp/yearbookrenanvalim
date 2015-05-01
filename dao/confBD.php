@@ -1,9 +1,9 @@
 <?php
  function conn_mysql(){
 
-      $conn = new PDO('mysql:host=br-cdbr-azure-south-a.cloudapp.net;dbname=yearbooksrenandb',
-    'b26b7fdade0889',
-    '9b9dd333',array(PDO::ATTR_PERSISTENT => false));
+      $conn = new PDO('mysql:host=br-cdbr-azure-south-a.cloudapp.net;dbname=yearbooksrvalimdb',
+    'b2417e8709a89b',
+    '0a5180c0',array(PDO::ATTR_PERSISTENT => false));
       return $conn;
    }
 ?>
