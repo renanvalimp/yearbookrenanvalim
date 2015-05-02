@@ -6,6 +6,9 @@ class AlunoVO {
     private $nome;
     private $descricao;
     private $foto;
+    private $cidade;
+    private $estado;
+    private $email;
     
     public function getId() {
         return $this->id;
@@ -38,6 +41,32 @@ class AlunoVO {
     public function setFoto($foto) {
         $this->foto = $foto;
     }
+    
+    public function getCidade() {
+        return $this->cidade;
+    }
+
+    public function getEstado() {
+        return $this->estado;
+    }
+
+    public function getEmail() {
+        return $this->email;
+    }
+
+    public function setCidade($cidade) {
+        $this->cidade = $cidade;
+    }
+
+    public function setEstado($estado) {
+        $this->estado = $estado;
+    }
+
+    public function setEmail($email) {
+        $this->email = $email;
+    }
+
+
 
    
 }

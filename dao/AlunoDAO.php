@@ -21,6 +21,9 @@ class AlunoDAO {
           $alunos->setNome(utf8_encode($linha["nome"]));
           $alunos->setDescricao(utf8_encode($linha["descricao"]));
           $alunos->setFoto($linha["foto"]);
+          $alunos->setCidade($linha["cidade"]);
+          $alunos->setEstado($linha["estado"]);
+          $alunos->setEmail($linha["email"]);
           
           $array[] = array($alunos);
         }
@@ -48,6 +51,9 @@ class AlunoDAO {
           $alunos->setNome(utf8_encode($linha["nome"]));
           $alunos->setDescricao(utf8_encode($linha["descricao"]));
           $alunos->setFoto($linha["foto"]);
+          $alunos->setCidade($linha["cidade"]);
+          $alunos->setEstado($linha["estado"]);
+          $alunos->setEmail($linha["email"]);
           
           $array[] = array($alunos);
         }

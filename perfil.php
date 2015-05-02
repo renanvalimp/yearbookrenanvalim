@@ -57,7 +57,10 @@
             <p><h3>Nome:</h3></p>
             <p><?php echo $linha[0]->getNome();?></p>
             <p><h4>Descrição:</h4></p>
-            <p><?php echo $linha[0]->getDescricao();?></p>             
+            <p><?php echo $linha[0]->getDescricao();?></p>
+            <p><?php echo $linha[0]->getEmail();?></p>   
+            <p><?php echo $linha[0]->getCidade() + " - ";?>    
+            <?php echo $linha[0]->getEstado();?></p>   
         </div>
            
     </div>
