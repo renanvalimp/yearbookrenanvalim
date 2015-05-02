@@ -32,13 +32,14 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
           <li class="active"><a href="index.php">Main Page</a></li>
+          <li class="active"><a href="cadastroUsuario.php">Cadastrar Usuário</a></li>
       </ul>
 
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>   
 
-    <div class="main">
+     <div class="container">
 
       <div>
 		 <form method="POST" enctype="multipart/form-data" action="./cadastroNovoUsuario.php">
@@ -53,6 +54,14 @@
                                 <input type="text" id="cidade" name="cidade" placeholder="cidade">
                                         
 			  </div>
+                          
+                           <div>
+                              
+				<label for="estado">Estado:</label><br/>
+                                <input type="text" id="estado" name="estado" placeholder="estado">
+                                        
+			  </div>
+                 
                           <div>
 				<label for="InputFoto">Foto:</label><br/>
 				<input type="file"  id="InputFoto" name="foto" placeholder="Foto" required autofocus>

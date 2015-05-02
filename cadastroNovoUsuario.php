@@ -80,9 +80,14 @@ try
 		$conexao = null;
 		
 	
-		if ($inserir){
-			 echo "<h1>Cadastro efetuado com sucesso.</h1>\n";
-			 echo "<p><a href=\"./index.php\">Página principal</a></p>\n";
+		if ($inserir){ 
+                    
+                        ?>
+                         <div class="container">
+                           <h1>Cadastro efetuado com sucesso.</h1>
+                         </div> 
+                        <?php
+			 
 		}
 		else {
 			echo "<h1>Erro na operação.</h1>\n";
