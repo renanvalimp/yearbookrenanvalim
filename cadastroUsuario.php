@@ -43,43 +43,46 @@
 
       <div>
 		 <form method="POST" enctype="multipart/form-data" action="./cadastroNovoUsuario.php">
+                      <div class="form-group">
 		 <h3>Cadastro</h3>
 			  <div >
 				<label for="InputNome">Nome:</label><br/>
-				<input type="text" id="nome" name="nome" placeholder="Nome" required autofocus>
+				<input type="text" id="nome" class="form-control" name="nome" placeholder="Nome" required autofocus>
 			  </div>
                           <div>
                               
 				<label for="cidade">Cidade:</label><br/>
-                                <input type="text" id="cidade" name="cidade" placeholder="cidade">
+                                <input type="text" id="cidade" class="form-control" name="cidade" placeholder="cidade">
                                         
 			  </div>
                           
                            <div>
                               
 				<label for="estado">Estado:</label><br/>
-                                <input type="text" id="estado" name="estado" placeholder="estado">
+                                <input type="text" id="estado" class="form-control" name="estado" placeholder="estado">
                                         
 			  </div>
                  
                           <div>
 				<label for="InputFoto">Foto:</label><br/>
-				<input type="file"  id="InputFoto" name="foto" placeholder="Foto" required autofocus>
+				<input type="file"  id="InputFoto"  class="btn btn-default" name="foto" placeholder="Foto" required autofocus>
 			  </div>
                  
                           <div>
 				<label for="InputEmail">E-Mail:</label><br/>
-				<input type="text" id="email" name="email" placeholder="E-mail" required autofocus>
+				<input type="text" id="email" class="form-control" name="email" placeholder="E-mail" required autofocus>
 			  </div>
                           
                           <div>
 				<label for="InputDescricao">Descrição:</label><br/>
-                                <textarea rows="6" cols="20" id="InputDescricao" name="descricao" placeholder="Descrição" required autofocus></textarea>
+                                <textarea rows="6" cols="20" class="form-control" id="InputDescricao" name="descricao" placeholder="Descrição" required autofocus></textarea>
                                 
 			  </div>
                 
 
-			  <button type="submit">Cadastrar</button>
+			  <button type="submit" class="btn btn-info">Cadastrar</button>
+                          
+                      </div> 
 		 </form>
 
 	 </div>
